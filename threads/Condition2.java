@@ -54,5 +54,7 @@ public class Condition2 {
 	Lib.assertTrue(conditionLock.isHeldByCurrentThread());
     }
 
+    
+
     private Lock conditionLock;
 }
